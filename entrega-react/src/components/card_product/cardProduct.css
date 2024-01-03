@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
+  width: 275px;
+  height: 420px;
+  background-color: white;
+}
+
+.card h2,
+.card h3 {
+  text-align: center;
+}
+
+.img-card {
+  width: 260px;
+}
+
+/* --------------------mediaquieries---------------------- */
+@media (max-width: 992px) {
+  .card {
+    width: 230px;
+    height: 375px;
+  }
+
+  .img-card {
+    width: 215px;
+  }
+}

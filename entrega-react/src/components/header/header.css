@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--brown-header-light);
+  height: 90px;
+  position: absolute;
+  top: 0;
+}
+
+.logo-caffe {
+  height: 80px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.menu-tools {
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
