@@ -28,4 +28,31 @@
   .img-card {
     width: 215px;
   }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 200px;
+    height: 330px;
+  }
+
+  .img-card {
+    width: 185px;
+  }
+
+  .card h2 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.8rem;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
 }

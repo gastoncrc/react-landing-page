@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  color: rgb(226, 223, 223);
+  color: var(--white);
 }
 
 .hero h1 {
@@ -18,4 +18,61 @@
 
 .hero p {
   font-size: 1.5rem;
+}
+
+/* ----------------------------------MEDIAQUERIES-------------- */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero h2 {
+    font-size: 4rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero h2 {
+    font-size: 3.2rem;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 2.9rem;
+  }
+
+  .hero p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 0.6rem;
+  }
 }

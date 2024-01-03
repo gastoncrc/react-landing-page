@@ -8,11 +8,16 @@
   color: inherit;
   list-style: none;
   font-family: "poppins", "montserrat", "sanz serif";
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
 :root {
   --pastel-back: rgb(239, 224, 231);
   --brown-header: #4b2514e4;
   --brown-header-light: #60362293;
+  --white: rgb(226, 223, 223);
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -25,3 +25,50 @@ header {
   gap: 2rem;
   color: white;
 }
+
+.menu-icon {
+  display: none;
+}
+
+/* ----------------------------MEDIAQUERIES------------------ */
+@media (max-width: 992px) {
+  .logo-caffe {
+    height: 70px;
+  }
+
+  .navbar-list {
+    font-size: 0.8rem;
+  }
+
+  .menu-tools {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-caffe {
+    height: 70px;
+  }
+
+  .navbar-list {
+    font-size: 0.7rem;
+  }
+
+  .menu-tools {
+    font-size: 0.7rem;
+    gap: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .menu-icon {
+    display: flex;
+  }
+
+  .cart-icon,
+  .login-icon {
+    display: none;
+  }
+  .menu-tools {
+    gap: 0.5rem;
+  }
+}

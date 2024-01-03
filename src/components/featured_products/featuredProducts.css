@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 1200px;
-  height: 140vh;
+  height: 1300px;
   position: relative;
 }
 
@@ -18,8 +18,33 @@
   width: 992px;
 }
 
+/* ----------------------------MEDIAQUERIES------------------ */
 @media (max-width: 992px) {
   .featured_container {
-    width: 992px;
+    width: 768px;
+    height: 1180px;
+  }
+  .cards-container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured_container {
+    width: 576px;
+    height: 1390px;
+  }
+  .cards-container {
+    width: 576px;
+  }
+}
+
+@media (max-width: 576px) {
+  .featured_container {
+    width: 325px;
+    height: 2830px;
+  }
+  .cards-container {
+    width: 325px;
   }
 }
