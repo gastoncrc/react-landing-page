@@ -1,4 +1,4 @@
-import "./FeaturedProducts.css";
+import "./featuredProducts.css";
 import CardProduct from "../card_product/CardProduct";
 import { products } from "../../data/products";
 
