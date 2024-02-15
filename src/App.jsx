@@ -4,18 +4,21 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 // import Products from "./components/products/products";
 import FeaturedProducts from "./components/featured_products/FeaturedProducts";
+import { MenuProvider } from "./menuContext";
 
 function App() {
   return (
-    <div className="app-container">
-      <div className="header-hero-container">
-        <Header />
-        <Hero />
+    <MenuProvider>
+      <div className="app-container">
+        <div className="header-hero-container">
+          <Header />
+          <Hero />
+        </div>
+        <FeaturedProducts />
+        {/* <Products /> */}
+        <Footer />
       </div>
-      <FeaturedProducts />
-      {/* <Products /> */}
-      <Footer />
-    </div>
+    </MenuProvider>
   );
 }
 
