@@ -1,6 +1,7 @@
 import "./menu.css";
 import React, { useContext } from "react";
 import { MenuContext } from "../../menuContext";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   const { menu } = useContext(MenuContext);
@@ -9,16 +10,16 @@ const Menu = () => {
     <nav className={`navbar ${menu ? "isActive" : ""}`}>
       <ul className="navbar-list">
         <li>
-          <a href="#featured">Destacados</a>
+          <Link to="/">Destacados</Link>
         </li>
         <li>
-          <a href="#about-us">Nosotros</a>
+          <Link to="/about">Nosotros</Link>
         </li>
         <li>
-          <a href="#products">Productos</a>
+          <Link to="/products">Productos</Link>
         </li>
         <li>
-          <a href="#contact">Contacto</a>
+          <Link to="/contact">Contacto</Link>
         </li>
       </ul>
     </nav>

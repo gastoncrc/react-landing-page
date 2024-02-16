@@ -4,13 +4,16 @@ import logo from "../../assets/img/caffe-logo-white.png";
 import { useContext } from "react";
 import { MenuContext } from "../../menuContext";
 import Menu from "../menu/Menu";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { toggleMenu } = useContext(MenuContext);
 
   return (
     <header>
-      <img src={logo} alt="prueba" className="logo-caffe" />
+      <Link to="/">
+        <img src={logo} alt="prueba" className="logo-caffe" />
+      </Link>
       <Menu />
       <div className="menu-tools">
         <a onClick={toggleMenu}>

@@ -9,9 +9,7 @@ export const MenuProvider = ({ children }) => {
     setMenu(!menu);
   };
 
-  return (
-    <MenuContext.Provider value={{ menu, toggleMenu }}>
-      {children}
-    </MenuContext.Provider>
-  );
+  const data = { menu, toggleMenu };
+
+  return <MenuContext.Provider value={data}>{children}</MenuContext.Provider>;
 };

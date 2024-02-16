@@ -1,0 +1,15 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 1200px;
+  gap: 1rem;
+}
+
+.about-us-title {
+  font-size: 25px;
+}
+
+.about-us-container p {
+  font-size: 20px;
+}
